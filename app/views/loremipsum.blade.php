@@ -10,6 +10,7 @@
 How many paragraphs would you like? <input type = "text" name = "numParagraphs">
 <br> <input type = "submit">
 </form> 
+<br>
 <?php
 try{ 
 	echo generate($_POST["numParagraphs"]);

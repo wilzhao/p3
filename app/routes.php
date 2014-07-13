@@ -38,7 +38,7 @@ Route::get('user-generator',function(){
 });
 
 Route::post('user-generator',function(){
-	return "You filled out the form!!";
+	return View::make('usergenerator');
 });
 
 
