@@ -28,7 +28,7 @@ Route::get('lorem-ipsum',function(){
 });
 //proccessed lorem ipsum
 Route::post('lorem-ipsum',function(){
-	return "You filled out the form!";
+	return View::make('loremipsum');
 });
 
 //random user generator start page
