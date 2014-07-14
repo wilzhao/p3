@@ -5,8 +5,8 @@ require base_path()."/vendor/badcow/lorem-ipsum/lib/Badcow/LoremIpsum/Generator.
 function generate($numParagraphs){
 	$generator = new BadCow\LoremIpsum\Generator();
 	$paragrapharray = $generator->getParagraphs($numParagraphs);
-	$paragraphstring = "<p>\n";
-	$paragraphstring .= implode("\n</p>\n\n<p>\n",$paragrapharray);
-	$paragraphstring .= "\n</p>\n";
+	$paragraphstring = "<br>\n";
+	$paragraphstring .= implode("\n<br>\n\n<br>\n",$paragrapharray);
+	$paragraphstring .= "\n<br>\n";
 	return $paragraphstring;
 }
