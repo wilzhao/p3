@@ -24,7 +24,6 @@ h1{
 }
 
 #titlebar h1{
-	background-color:#006400;
 	margin:0 auto;
 	padding-top:2px;
 	padding-bottom:2px;
@@ -36,7 +35,6 @@ h1{
 	padding-right:1%;
 	float:left;
 	display:inline;
-	background-color:#A9A9A9;
 	height:100%;
 }
 
@@ -47,5 +45,4 @@ h1{
 	float:right;
 	display:inline;
 	margin: 0 auto;
-	background-color:#9A9A9A;
 }
