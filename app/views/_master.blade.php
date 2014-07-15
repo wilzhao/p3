@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 
 	{{HTML::style('stylesheets/style.css');}}
-
+	<title>@yield('title')</title>
 	<link href='http://fonts.googleapis.com/css?family=Ubuntu:500' rel='stylesheet' type='text/css'>
 	
 @yield('head')
