@@ -11,4 +11,4 @@ The User generator creates random users' names.
 ##Outside Code
 Ubuntu Font: <https://www.google.com/fonts>
 Lorem Ipsum: <https://packagist.org/packages/badcow/lorem-ipsum>
-Faker: <https://packagist.org/packages/badcow/lorem-ipsum>
+Faker: <https://packagist.org/packages/fzaninotto/faker>
